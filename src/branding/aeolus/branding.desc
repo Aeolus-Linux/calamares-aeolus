@@ -1,0 +1,22 @@
+# Configuration file for Calamares
+# Syntax is YAML 1.2
+---
+componentName:  aeolus
+
+strings:
+    productName:         Aeolus Linux 2019.04.xx
+    versionedName:       Aeolus 2019.04.xx "Divide-By-Zero (DBZ)"
+    shortVersionedName:  Aeolus 2019.04.xx
+    bootloaderEntryName: Aeolus
+
+images:
+    productLogo:         "logo-light.png"
+    productIcon:         "logo-dark.png"
+    productWelcome:      "logo-dark.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2F3437"
+   sidebarText:          "#6A6E71"
+   sidebarTextSelect:    "#2F3437"
