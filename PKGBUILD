@@ -4,7 +4,7 @@ pkgrel=1
 pkgdesc='Distribution-independent installer framework'
 arch=('x86_64')
 license=(GPL)
-url="https://github.com/Aeolus-Linux/calamares-installer.git"
+url="https://github.com/Aeolus-Linux/calamares-aeolus.git"
 license=('LGPL')
 depends=('kconfig' 
          'kcoreaddons' 
@@ -31,7 +31,7 @@ makedepends=('extra-cmake-modules'
 
 
 source+=("https://github.com/calamares/calamares/releases/download/v${pkgver}/calamares-${pkgver}.tar.gz"
-         git+https://github.com/Aeolus-Linux/calamares-installer.git)
+         git+https://github.com/Aeolus-Linux/calamares-aeolus.git)
 
 sha256sums=('b3e17f62edee123857ffc6786c0bbdf9c780ec3bc25ffdf0da2028668156dd36'
             'SKIP')
